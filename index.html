@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Site oficial de Guilherme</title>
+    <style>
+
+        body{
+            background-image: linear-gradient(to top left, rgba(140, 140, 187, 0.774),rgb(20, 20, 58));
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            margin-top: 1.3vw;    
+            }
+       
+
+        .primeiro{
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 1vw;
+            color: rgb(255, 255, 255);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+
+        .primeiro:hover{
+            background-image: linear-gradient(to bottom right, rgba(111, 104, 138, 0.6), rgba(49, 41, 85, 0.6));
+            transition: all 0.2s ease ;
+        }
+
+
+
+        .textop{
+            border-radius: 10px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: rgb(255, 255, 255);
+            margin-left: 50vw;
+            display: inline-block;
+            position: absolute;
+            transition: all 0.7s ease;
+            padding: 10px;
+            font-size: 1vw;
+            font-weight: bolder;
+            border: none;
+            font-size: 1.3vw;
+        }
+
+
+       .guigui{
+            position: absolute;
+            margin: 4.9vw;
+            margin-top: 10.9vw;
+            box-shadow: 2px 2px 5px rgb(49, 45, 63);
+            width: 5vw;
+            border-radius: 50%;
+            transition: all 1s ease ;
+            z-index: 2;
+        }
+
+        .bola1{
+            margin-top: 9.28vw;
+            margin-left: 3.2vw;
+            position: absolute;
+            z-index: 1;
+            width: 8.5vw;
+            height: 8.5vw;
+            border-radius: 50%;
+            background-color: white;
+            transition: all 1s ease ;
+            box-shadow: 4px 4px 6px rgba(49, 45, 63, 0.623);
+        }
+
+
+        .bola2{
+            margin-top: 8vw;
+            margin-left: 1.9vw;
+            position: absolute;
+            z-index: 0;
+            width: 11vw;
+            height: 11vw;
+            border-radius: 50%;
+            background-image: linear-gradient(to bottom right, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            transition: all 1s ease ;
+        }
+       
+        .foto{
+            transition: all 0.7s ease ;
+        }
+        .textob{
+            margin-top: 0;
+            color: white;
+            font-family: Verdana, sans-serif;
+            transition: 2s ease;
+            font-size: 0.7vw;
+            padding: 6px;
+            opacity: 0;
+           
+        }
+        .foto:hover .bola2{
+            margin-left: 1.7vw;
+            background-image: linear-gradient(to bottom right, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            width: 31%;
+            border-radius: 30px;
+        }
+        .foto:hover .textob{
+            opacity: 1;
+            margin-left: 11vw;
+            display:inline-block;
+            margin-top: none;
+            transition: all 1s ease;
+        }
+        .isa{
+            position: absolute;
+            margin-left: 45vw;
+            margin-top: 10.9vw;
+            box-shadow: 2px 2px 5px rgb(49, 45, 63);
+            width: 5vw;
+            border-radius: 50%;
+            transition: all 1s ease ;
+            z-index: 2;
+
+        }
+        .bola3{
+            margin-top: 9.28vw;
+            margin-left: 43.3vw;
+            position: absolute;
+            z-index: 1;
+            width: 8.5vw;
+            height: 8.5vw;
+            border-radius: 50%;
+            background-color: white;
+            transition: all 1s ease ;
+            box-shadow: 4px 4px 6px rgba(49, 45, 63, 0.623);
+            
+        }
+        .bola4{
+            margin-top: 8vw;
+            margin-left: 42vw;
+            position: absolute;
+            z-index: 0;
+            width: 11vw;
+            height: 11vw;
+            border-radius: 50%;
+            background-image: linear-gradient(to left top, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            transition: all 1s ease ;
+            
+        }
+        .foto:hover .textoi{
+            margin-left: 13vw;
+            opacity: 1;
+            display:inline-block;
+            transition: all 1s ease;
+        }
+        .foto:hover .bola4{
+            margin-left: 40vw;
+            background-image: linear-gradient(to top left, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            width: 36%;
+            border-radius: 30px;
+        }
+        .textoi{
+            color: white;
+            font-family: Verdana, sans-serif;
+            transition: 2s ease;
+            font-weight: 400;
+            font-size: 0.7vw;
+            padding: 5px;
+            opacity: 0;
+        }
+        .gege{
+            position: absolute;
+            margin-left: 86vw;
+            margin-top: 10.9vw;
+            box-shadow: 2px 2px 5px rgb(49, 45, 63);
+            width: 5vw;
+            border-radius: 50%;
+            transition: all 1s ease ;
+            z-index: 2;
+        }
+        .bola5{
+            margin-top: 9.28vw;
+            margin-left: 84.3vw;
+            position: absolute;
+            z-index: 1;
+            width: 8.5vw;
+            height: 8.5vw;
+            border-radius: 50%;
+            background-color: white;
+            transition: all 1s ease ;
+            box-shadow: 4px 4px 6px rgba(49, 45, 63, 0.623);
+        }
+        .bola6{
+            margin-top: 8vw;
+            margin-left: 83vw;
+            position: absolute;
+            z-index: 0;
+            width: 11vw;
+            height: 11vw;
+            border-radius: 50%;
+            background-image: linear-gradient(to bottom left, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            transition: all 1s ease ;
+        }
+        .textog{
+            color: white;
+            font-family: Verdana, sans-serif;
+            transition: 2s ease;
+            font-weight: 400;
+            font-size: 0.7vw;
+            padding: 5px;
+            opacity: 0;
+        }
+        .foto:hover .textog{
+            margin-left: 3vw;
+            opacity: 1;
+            display:inline-block;
+            transition: all 1s ease;
+        }
+        .foto:hover .bola6{
+            margin-left: 62vw;
+            background-image: linear-gradient(to top left, rgb(111, 104, 138), rgba(49, 41, 85, 0.7));
+            width: 33%;
+            border-radius: 30px;
+        }
+        .x{
+            margin-top: 10%;
+        }
+        .t{
+            font-size: 2vw;
+            width: 20%;
+            margin:auto;
+            border-radius: 10px;
+            border: none;
+            padding: 6px;
+            background-color: rgba(41, 41, 151, 0.295);
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+            box-shadow: 0px 4px 7px rgb(54, 54, 68);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .menu{
+            position: fixed;
+            background-color: rgba(0, 0, 0, 0.199);
+            width: 100%;
+            padding: 10px;
+            box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.63);
+            top: 0;
+            left: 0;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+        <div class="menu">
+        <a href="imagem1.html" class="primeiro">exercício 1</a>
+        <a href="imagem2.html" class="primeiro">exercício 2</a>
+        <a href="gege.html" class="primeiro">exercício 3</a>
+        <a href="imagem4.html" class="primeiro">exercício 4</a>
+        <a href="imagem3.html" class="primeiro">exercício 5</a>
+        <div class="textop">Lista de exercícios</div>
+        </div>    
+            <div class="x">
+            <div class="t">Integrantes</div>
+        <div class="foto">
+            <img src="quemehguigui.png" alt="foto de Guilherme" class="guigui">
+            <div class="bola1"></div>
+                <div class="bola2">
+                    <div class="textob">
+                        <br><br>Aluno: Guilherme Alves Lobianco
+                        <br><br>Sala: 1º ano A
+                        <br><br>Professor: Ricardo Soares Boaventura
+                        <br><br>Matéria: Fundamentos de Web Design
+                        <br><br>Curso: Técnico em Desenvolvimento de Sistemas
+                    </div>
+                </div>
+        </div> 
+        <div class="foto">
+            <img src="Captura de tela 2025-09-02 181612.png" alt="bebela" class="isa" >
+            <div class="bola3"></div>
+                <div class="bola4">
+                    <div class="textoi">
+                        <br><br>Aluno: Isabela Martins Soares
+                        <br><br>Sala: 1º ano A
+                        <br><br>Professor: Ricardo Soares Boaventura
+                        <br><br>Matéria: Fundamentos de Web Design
+                        <br><br>Curso: Técnico em Desenvolvimento de Sistemas
+                    </div>
+                </div>
+        </div>
+        <div class="foto">
+            <img src="geovana.jpg" alt="Geovana" class="gege" >
+            <div class="bola5"></div>
+                <div class="bola6">
+                    <div class="textog">
+                        <br><br>Aluno: Geovana Prates de Carvalho Gama
+                        <br><br>Sala: 1º ano A
+                        <br><br>Professor: Ricardo Soares Boaventura
+                        <br><br>Matéria: Fundamentos de Web Design
+                        <br><br>Curso: Técnico em Desenvolvimento de Sistemas
+                    </div>
+                </div>
+        </div>
+        </div>
+</body>
+</html>
+
+
+
+
+
+
+
